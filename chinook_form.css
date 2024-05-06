@@ -1,0 +1,139 @@
+.navbar {
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+  }
+  
+  .navbar-brand {
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    padding: 0 2rem 0 2rem;
+  }
+  
+  .background {
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://ukdj.imgix.net/589438619a169224c537d0a7a5fb18e6_/rafchinook.jpg?auto=compress%2Cformat&ixlib=php-3.3.0&s=ba3cdf4fe59fb2cc7e7be2854aff0a77);
+    background-size: cover;
+  }
+  
+  .background::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.2);
+  }
+  
+  #heading {
+    font-family: 'Barlow', sans-serif;
+    font-size: 6rem;
+    justify-content: start;
+    color: white;
+  }
+  
+  span {
+    font-weight: bold;
+    color: black;
+  }
+  
+  .key-facts {
+    background-color: black;
+  }
+  
+  .image-grid {
+    padding: 2rem 1rem 2rem 1rem;
+  }
+  
+  .text-pos {
+    position: relative;
+  }
+  
+  .key-fact-img {
+    height: auto;
+    width: 100%;
+    padding: 1rem 0 1rem 0;
+  }
+  
+  .text-block {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    margin-right: 2rem;
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    font-family: 'Barlow', sans-serif;
+    color: white;
+    height: 10rem;
+    padding: 1rem;
+    opacity: 0.0;
+    transition: opacity 0.3s ease-out;
+  }
+  
+  .text-block:hover {
+    opacity: 1.0;
+  }
+  
+  #chinook-form {
+    margin: 1rem;
+    font-family: 'Barlow', sans-serif;
+  }
+  
+  .form-title {
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  .sub-heading {
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+  }
+  
+  label {
+    margin: 1rem 0 0.5rem 0;
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .selection-box {
+    border: 2px solid #9e998d;
+    border-radius: 5px;
+    margin: 0.5rem;
+    padding: 1rem;
+    height: 21rem;
+  }
+  
+  footer {
+    width: 100%;
+    background-color: black;
+    text-align: center;
+  }
+  
+  .footer-text {
+    font-family: 'Barlow', sans-serif;
+    color: white;
+    padding: 1rem;
+  }
+  
+  .final-costing {
+    padding: 1rem;
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .cost-text {
+    border: 2px solid red;
+    width: 50%;
+    margin: 2rem auto;
+    padding: 2rem 0;
+  }
+  
